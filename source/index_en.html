@@ -1,1980 +1,395 @@
-﻿<!DOCTYPE html>
-<html lang="vi">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>From cashback to CGV ticket, let’s maximize your salary benefits!</title>
-
-		<style>
-			* {
-				box-sizing: border-box;
-				color-scheme: light;
-			}
-			:root {
-			  color-scheme: light;
-			}
-			body {
-				margin: 0 auto;
-				font-family: Arial, sans-serif;
-				font-size: 16px;
-				line-height: 24px;
-				width: 700px;
-				background: #ffffff;
-				color: #333333;
-			}
-			p {
-				font-size: 16px;
-				margin: 16px 0;
-			}
-			/* Common */
-			.button {
-				background: #ffffff;
-				padding: 16px 60px;
-				display: inline-block;
-				color: black;
-				cursor: pointer;
-				font-weight: unbold;
-				font-size: 16px;
-			}
-
-			.text-common {
-				margin: 0;
-				padding: 0;
-				border: none;
-				font-family: Arial, Helvetica, sans-serif !important;
-				font-size: 16px;
-				line-height: 1.3;
-				color: #000000;
-			}
-
-			.font-color {
-				color: #000000;
-			}
-
-			.background-color {
-				background: #ffffff;
-			}
-
-			.font-size-24 {
-				font-size: 24px !important;
-			}
-
-			.border-color {
-				border-color: #333333;
-			}
-
-			.line {
-				background: #ffffff;
-			}
-
-			.button-primary {
-				margin: 0;
-				padding: 15px;
-				font-family: Arial, Helvetica, sans-serif !important;
-				font-size: 18px;
-				line-height: 1.3;
-				color: #000000;
-				background: #e3e3e3;
-			}
-			/* End common CSS */
-
-			.header-intro {
-				padding-top: 0px;
-				font-size: 32px;
-				color: #000000;
-				line-height: 40px;
-				font-family: Arial, Helvetica, sans-serif;
-			}
-
-			/* Part 1 */
-			.img-part-1 {
-				padding: 0 16px 0 0;
-			}
-
-			/* Part 2 */
-			.header-part-2 {
-				padding: 0 150px 0 0;
-			}
-
-			.card-content-part-2 {
-				margin: 0;
-				padding: 0 0 0 24px;
-				border: none;
-			}
-
-			/* Part 3 */
-			.header-part-3 {
-				padding: 0 170px 0 0 !important;
-				font-size: 24px;
-			}
-
-			/* Part 4 */
-			.header-part-4 {
-				padding: 32px 60px 12px 60px;
-			}
-
-			/* Part 8 */
-			.cell-common-style {
-				padding: 16px;
-				border: 1px solid #333333;
-				box-sizing: border-box;
-				background-color: #ffffff;
-				color: #000000;
-			}
-
-			.cell-middle-style {
-				border-left: none;
-				border-right: none;
-			}
-
-			/* Others CSS */
-			.title_box {
-				font-size: 23px;
-				line-height: 30px;
-			}
-
-			.title_item {
-				font-size: 19px;
-				line-height: 27px;
-			}
-
-			/* Body content */
-			.body_content {
-				border: 1px solid #d7d8d6;
-				background: #ffffff;
-				width: 700px;
-			}
-
-			/* Hero */
-			.hero_logo {
-				padding: 32px 45px;
-			}
-
-			/* Tạo padding */
-			.main_body {
-				padding: 32px 45px;
-			}
-
-			/* info person */
-				.avt-wrapper {
-					border: 0px solid #d7d8d6 !important;
-				}
-
-				.avt-wrapper,
-				.avt-wrapper tr,
-				.avt-wrapper td {
-					display: block !important;
-					width: 100% !important;
-					max-width: 100% !important;
-				}
-				.avt-info-cell {
-					padding: 24px 12px 16px 12px !important;
-				}
-				.avt-img-cell {
-					padding: 0 !important;
-				}
-				.avt-img-cell img {
-					width: 100% !important;
-					height: auto !important;
-				}
-			/* Footer */
-			footer {
-				background-color: #ffffff;
-			}
-
-			.footer-container {
-				font-size: 16px;
-				line-height: 1.3;
-				color: #000000;
-				background-color: #ededed;
-			}
-
-			.footer-container-main {
-				padding: 16px 0 !important;
-			}
-
-			.content_text_footer {
-				margin: 0;
-				padding: 10px 0 0 0;
-				border: none;
-				font-family: Arial, Helvetica, sans-serif !important;
-				font-size: 12px;
-				line-height: 16px;
-				color: #808080;
-			}
-
-			.footer_container {
-				padding: 32px 45px;
-			}
-
-			/* Dark mode */
-			
-			/* Mobile */
-			@media (max-width: 768px) {
-				body {
-					width: 100%;
-					padding: 16px;
-				}
-
-				.body_content {
-					border: 1px solid #d7d8d6;
-					width: 100% !important;
-				}
-
-				/* Hero */
-				.hero_logo {
-					padding: 32px 22px;
-				}
-				
-				.header-intro br {
-					display: none;
-				}
-
-				/* Tạo padding */
-				.main_body {
-					padding: 16px 22px 32px 22px;
-				}
-
-				/* Common */
-				.button {
-					width: 100% !important;
-					display: table;
-				}
-
-				.td-mobile {
-					display: block !important;
-					width: 100% !important;
-					max-width: 100% !important;
-				}
-
-				.button-primary-container {
-					width: 100% !important;
-					max-width: 100% !important;
-				}
-
-				/* Part 1 */
-				.img-part-1 {
-					padding: 16px 0 !important;
-				}
-
-				/* Part 2 */
-				.header-part-2 {
-					padding: 0 !important;
-				}
-
-				.card-content-part-2 {
-					margin: 0;
-					padding: 16px;
-					border: none;
-				}
-
-				.img-chs-box {
-					padding: 16px 0 !important;
-				}
-
-				/* Part 3 */
-				.header-part-3 {
-					padding: 0 0 0 0 !important;
-				}
-
-				/* Part 4 */
-				.header-part-4 {
-					padding: 32px 0 12px 0 !important;
-				}
-
-				.img-header {
-					padding-top: 16px !important;
-				}
-
-				.card-part-4 {
-					padding: 0 16px 16px 16px !important;
-				}
-
-				/* Part 5 */
-				.card-part-5,
-				.header-part-5 {
-					padding: 0 !important;
-				}
-
-				.arrow-icon-part-5 {
-					transform: rotate(90deg);
-				}
-
-				/* Part 6 */
-				.header-part-6 {
-					padding: 0 !important;
-				}
-
-				.hidden-border-card-p-6 {
-					border: unset !important;
-				}
-
-				/* Part 8 */
-				.cell-middle-style {
-					border: 1px solid !important;
-					border-bottom: none !important;
-					border-top: none !important;
-				}
-
-				.top-border {
-					border-top: 1px solid !important;
-				}
-
-				/* Content */
-				.item {
-					display: block;
-				}
-
-				.hide-on-mobile {
-					display: none;
-				}
-
-				/* footer */
-				.footer-container-main {
-					padding: 0 32px !important;
-				}
-
-				.stack-column-top {
-					display: block !important;
-					width: 100% !important;
-					max-width: 100% !important;
-					text-align: center;
-					padding: 16px 0 !important;
-					font-size: 14px !important;
-				}
-
-				.stack-column-bottom {
-					display: block !important;
-					width: 100% !important;
-					max-width: 100% !important;
-					text-align: center;
-					border-top: 2px solid #db0011;
-					padding: 16px 0 !important;
-					font-size: 14px !important;
-				}
-
-				.footer_container {
-					padding: 16px 22px !important;
-				}
-				.center-mobile {
-					text-align: center
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<!-- Pre-header -->
-		<div
-			style="
-				display: none;
-				font-size: 1px;
-				color: #ffffff;
-				line-height: 1px;
-				max-height: 0px;
-				max-width: 0px;
-				opacity: 0;
-				overflow: hidden;
-			"
-		>
-			From cashback to CGV ticket, let’s maximize your salary benefits!
-		</div>
-		<!-- Body content -->
-		<table
-			class="body_content"
-			border="0"
-			cellpadding="0"
-			cellspacing="0"
-			align="center"
-		>
-			<tr>
-				<td>
-					<!-- Hero -->
-					<div class="hero">
-						<table
-							width="100%"
-							cellpadding="0"
-							cellspacing="0"
-							border="0"
-							class="hero_logo"
-						>
-							<tr>
-								<td align="left" valign="bottom">
-									<img
-										src="image/chs_hsbc_logo.jpg"
-										width="104"
-										height="28"
-										alt=""
-										style="display: block"
-									/>
-								</td>
-								<td align="right" valign="bottom">
-									<img
-										src="image/chs_hsbc_cards.jpg"
-										height="56"
-										alt=""
-										style="display: block"
-									/>
-								</td>
-							</tr>
-						</table>
-						<img
-							src="image/chs_key.jpg"
-							height="auto"
-							alt=""
-							width="100%"
-						/>
-					</div>
-					<!-- Bọc padding -->
-					<table width="100%" cellpadding="0" cellspacing="0" border="0">
-						<tr>
-							<td class="main_body">
-								<!-- Intro -->
-								<div class="intro">
-									<table
-										width="100%"
-										border="0"
-										cellpadding="0"
-										cellspacing="0"
-									>
-										<tr>
-											<td
-												valign="top"
-												align="left"
-												class="header-intro"
-											>
-												Transfer your salary to HSBC, <br />turn your income into privileges
-											</td>
-										</tr>
-										<tr>
-											<td
-												align="left"
-												valign="top"
-												class="td-mobile"
-												style="padding: 16px 0 0 0"
-											>
-												Enjoy unlimited cashback, CGV movie tickets, and airport Fast Track service, all unlocked with just one simple salary transfer to HSBC. Transfer your salary today to unlock privileges that match your ambition!
-											</td>
-										</tr>
-									</table>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<td bgcolor="#e7e7e7" class="main_body">
-								<!-- Part 1 -->
-								<table
-									width="100%"
-									border="0"
-									cellpadding="0"
-									cellspacing="0"
-								>
-								<tr>
-									<td
-										style="
-											margin: 0;
-											padding: 0 0 32px 0;
-											border: none;
-											font-family: Arial, Helvetica, sans-serif !important;
-											font-size: 16px;
-											line-height: 1.3;
-											color: #000000;
-										"
-									>
-										<img
-											src="image/chs_box_25.jpg"
-											width="100%"
-											height="auto"
-											alt=""
-											style="display: block"
-										/>
-									</td>
-								</tr>
-								<!-- Header -->
-								<tr>
-									<td
-										align="left"
-										style="
-											margin: 0;
-											padding: 0;
-											border: none;
-											font-family: Arial, Helvetica, sans-serif !important;
-											font-size: 24px;
-											line-height: 1.3;
-											color: #db0011;
-										"
-										class="title-common"
-									><strong>Earn More with Your Savings</strong></td>
-								</tr>
-								<!-- Content -->
-								<tr>
-									<td
-										style="
-											margin: 0;
-											padding: 15px 0 0 0;
-											border: none;
-											font-family: Arial, Helvetica, sans-serif !important;
-											font-size: 16px;
-											line-height: 1.3;
-											color: #000000;
-										"
-									>Maintain your balance, earn more with CASA<sup style="font-size: 14px;">(*)</sup> interest up to 0.25% p.a.</td>
-								</tr>
-
-									<tr>
-									<td
-										style="
-											padding: 12px 0 0 0;
-											margin: 0;
-											border: none;
-											line-height: 1.3;
-											font-size: 16px;
-											font-family: Arial, Helvetica, sans-serif !important;
-										"
-									>
-										<table
-											width="100%"
-											border="0"
-											cellpadding="0"
-											cellspacing="0"
-										>
-											<tr>
-												<td
-													align="center"
-													bgcolor="#ba1110"
-													style="
-														padding: 5px 0;
-														margin: 0;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-														color: #ffffff;
-													"
-												>
-													<strong>CASA Balance (VND)</strong>
-												</td>
-												<td
-													width="10"
-													align="center"
-													valign="middle"
-
-													style="
-														padding: 0;
-														margin: 0;
-														border: none;
-														line-height: 1.3;
-														color: #ffffff;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-													"
-												>&nbsp;
-
-												</td>
-												<td
-													align="center"
-													bgcolor="#ba1110"
-													style="
-														padding: 5px 0;
-														margin: 0;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-														color: #ffffff;
-													"
-												>
-													<strong
-														>Interest Rate (p.a.)
-														</strong
-													>
-												</td>
-											</tr>
-											<!-- Spacing -->
-											<!-- End spacing -->
-											<tr>
-												<td
-													align="center"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 5px 0;
-														margin: 0;
-														border-bottom: 1px solid #ba1110;
-
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-													"
-												>
-													50 - 100 million
-												</td>
-												<td
-													width="10"
-													align="center"
-													valign="middle"
-													style="
-														padding: 0;
-														margin: 0;
-														border: none;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-													"
-												>
-
-												</td>
-												<td
-													align="center"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 5px 0;
-														margin: 0;
-														border-bottom: 1px solid #ba1110;
-
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-													"
-												>
-													0.05%
-												</td>
-											</tr>
-											<tr>
-												<td
-													align="center"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 5px 0;
-														margin: 0;
-														border-bottom: 1px solid #ba1110;
-
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-													"
-												>
-													100 - 250 million
-												</td>
-												<td
-													width="10"
-													align="center"
-													valign="middle"
-													style="
-														padding: 0;
-														margin: 0;
-														border: none;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-													"
-												>
-
-												</td>
-												<td
-													align="center"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 5px 0;
-														margin: 0;
-														border-bottom: 1px solid #ba1110;
-
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-													"
-												>
-													0.10%
-												</td>
-											</tr>
-											<tr>
-												<td
-													align="center"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 5px 0;
-														margin: 0;
-														border-bottom: 1px solid #ba1110;
-
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-													"
-												>
-													250 - 500 million
-												</td>
-												<td
-													width="10"
-													align="center"
-													valign="middle"
-													style="
-														padding: 0;
-														margin: 0;
-														border: none;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-													"
-												>
-
-												</td>
-												<td
-													align="center"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 5px 0;
-														margin: 0;
-														border-bottom: 1px solid #ba1110;
-
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-													"
-												>
-													0.20%
-												</td>
-											</tr>
-											<tr>
-												<td
-													align="center"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 5px 0;
-														margin: 0;
-														border-bottom: 1px solid #ba1110;
-
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-													"
-												>
-													From 500 million and above
-												</td>
-												<td
-													width="10"
-													align="center"
-													valign="middle"
-													style="
-														padding: 0;
-														margin: 0;
-														border: none;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-													"
-												>
-
-												</td>
-												<td
-													align="center"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 5px 0;
-														margin: 0;
-														border-bottom: 1px solid #ba1110;
-
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-													"
-												>
-													0.25%
-												</td>
-											</tr>
-
-
-										</table>
-									</td>
-								</tr>
-									<tr>
-								  <td
-										style="
-											padding: 12px 0 0 0;
-											margin: 0;
-											border: none;
-											line-height: 1.3;
-											font-size: 14px;
-											font-family: Arial, Helvetica, sans-serif !important;
-										"
-									><sup style="font-size: 12px;">(*)</sup>CASA - Current Account and Savings Account, referring to the combined funds in these two types of accounts.</td>
-								  </tr>
-
-								</table>
-								<!--End part 1-->
-							</td>
-						</tr>
-						<tr>
-							<td bgcolor="#db0011" class="main_body">
-								<!-- Part 2 -->
-								<table
-									width="100%"
-									border="0"
-									cellpadding="0"
-									cellspacing="0"
-								>
-									<tr>
-										<td
-											align="left"
-											style="
-												margin: 0;
-												padding: 0;
-												border: none;
-												font-family: Arial, Helvetica, sans-serif !important;
-												font-size: 24px;
-												line-height: 1.3;
-												color: #FFFFFF;
-											"
-											class="title-common"
-										><strong>Unlock these benefits when meeting <span style="white-space: nowrap;">the below conditions:</span></strong></td>
-									</tr>
-									<tr>
-										<td
-											style="
-												margin: 0;
-												padding: 16px 0 32px 0;
-												border: none;
-												font-family: Arial, Helvetica, sans-serif !important;
-												font-size: 16px;
-												line-height: 1.3;
-												color: #000000;
-											"
-										>
-											<img
-												src="image/chs_box_26.jpg"
-												width="100%"
-												height="auto"
-												alt=""
-												style="display: block"
-											/>
-										</td>
-									</tr>
-								<tr>
-									<td
-										bgcolor="#FFFFFF"
-										style="
-											padding: 0;
-											margin: 0;
-											border: none;
-											line-height: 1.3;
-											font-size: 16px;
-											font-family: Arial, Helvetica, sans-serif !important;
-										"
-									>
-										<table
-											width="100%"
-											border="0"
-											cellpadding="0"
-											cellspacing="0"
-										>
-											<tr>
-												<td
-													width="36"
-													align="center"
-													bgcolor="#ba1110"
-													class="td-mobile img-chs-box"
-												>&nbsp;
-												</td>					
-												<td
-													align="center"
-													bgcolor="#ba1110"
-													style="
-														padding: 5px 0;
-														margin: 0;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-														color: #ffffff;
-														text-transform: uppercase;
-													"
-												>
-													<strong>Rewards<sup style="font-size: 14px;">(**)</sup></strong>
-												</td>
-												<td 
-													width="210"
-													align="center"
-													bgcolor="#ba1110"
-													style="
-														padding: 5px 0;
-														margin: 0;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-														color: #ffffff;
-														text-transform: uppercase;
-													"
-												>
-													<strong>Condition (VND)</strong>
-
-												</td>
-											</tr>
-											<tr>
-												<td
-													width="36"
-													align="center"
-													valign="top"
-													bgcolor="#d2d2d2"
-													style="
-														padding: 10px;
-														   border-bottom: 1px solid #000000;
-													"
-												>
-													<img
-														src="image/chs_box_27.jpg"
-														width="36"
-														height="auto"
-														alt=""
-														style="
-															display: block;
-														"
-													/>
-												</td>
-												<td
-													align="left"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 10px;
-														margin: 0;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-														   border-bottom: 1px solid #000000;
-													"
-													
-												>
-													<strong>Extra</strong> <strong style="color: #db0011;">2%</strong> <strong>cashback</strong> on credit card<br>
-													Special personal loan interest rate up to <strong style="color: #db0011;">1.5%</strong></td>						
-												<td 
-													align="center"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 10px 0;
-														margin: 0;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-														   border-bottom: 1px solid #000000;
-													"
-												>Salary ≥ 10 million</td>
-											</tr>
-											<tr>
-												<td
-													width="36"
-													align="center"
-													valign="top"
-													bgcolor="#d2d2d2"
-													style="
-														padding: 10px;
-														   border-bottom: 1px solid #000000;
-													"
-												>
-													<img
-														src="image/chs_box_28.jpg"
-														width="36"
-														height="auto"
-														alt=""
-														style="
-															display: block;
-														"
-													/>
-												</td>
-												<td
-													align="left"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 10px;
-														margin: 0;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-														   border-bottom: 1px solid #000000;
-													"
-													
-												>
-													<strong>Unlimited</strong> <strong style="color: #db0011;">1%</strong> cashback on debit card
-												</td>						
-												<td 
-													align="center"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 10px 0;
-														margin: 0;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-														   border-bottom: 1px solid #000000;
-													"
-												>Salary ≥ 20 million</td>
-											</tr>
-											<tr>
-												<td
-													width="36"
-													align="center"
-													valign="top"
-													bgcolor="#d2d2d2"
-													style="
-														padding: 10px;
-														   border-bottom: 1px solid #000000;
-													"
-												>
-													<img
-														src="image/chs_box_29.jpg"
-														width="36"
-														height="auto"
-														alt=""
-														style="
-															display: block;
-														"
-													/>
-												</td>
-												<td
-													align="left"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 10px;
-														margin: 0;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-														   border-bottom: 1px solid #000000;
-													"
-													
-												>
-													<strong style="color: #db0011;">2</strong> pairs CGV ticket
-												</td>						
-												<td 
-													align="center"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 10px 0;
-														margin: 0;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-														   border-bottom: 1px solid #000000;
-													"
-												>CASA from 100 - 500 million and salary ≥ 45 million</td>
-											</tr>
-											<tr>
-												<td
-													width="36"
-													align="center"
-													valign="top"
-													bgcolor="#d2d2d2"
-													style="
-														padding: 10px;
-														   border-bottom: 1px solid #000000;
-													"
-												>
-													<img
-														src="image/chs_box_30.jpg"
-														width="36"
-														height="auto"
-														alt=""
-														style="
-															display: block;
-														"
-													/>
-												</td>
-												<td
-													align="left"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 10px;
-														margin: 0;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-														   border-bottom: 1px solid #000000;
-													"
-													
-												>
-													<strong style="color: #db0011;">4</strong> pairs CGV ticket
-												</td>						
-												<td 
-													align="center"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 10px 0;
-														margin: 0;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-														   border-bottom: 1px solid #000000;
-													"
-												>CASA ≥ 500 million and salary ≥ 45 million</td>
-											</tr>
-											<tr>
-												<td
-													width="36"
-													align="center"
-													valign="top"
-													bgcolor="#d2d2d2"
-													style="
-														padding: 10px;
-													"
-												>
-													<img
-														src="image/chs_box_31.jpg"
-														width="36"
-														height="auto"
-														alt=""
-														style="
-															display: block;
-														"
-													/>
-												</td>
-												<td
-													align="left"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 10px;
-														margin: 0;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;	
-													"
-													
-												>
-													<strong style="color: #db0011;">1x/year</strong> Airport Fast Track
-												</td>						
-												<td 
-													align="center"
-													bgcolor="#FFFFFF"
-													style="
-														padding: 10px 0;
-														margin: 0;
-														line-height: 1.3;
-														font-size: 16px;
-														font-family: Arial, Helvetica,
-															sans-serif !important;
-													"
-												>CASA ≥ 500 million and salary ≥ 45 million</td>
-											</tr>
-											</table>
-										</td>
-									</tr>
-								<tr>
-								  <td
-										style="
-											padding: 10px 0 0 0;
-											margin: 0;
-											border: none;
-											line-height: 1.3;
-											font-size: 16px;
-											font-family: Arial, Helvetica, sans-serif !important;
-										   	color: #FFFFFF
-										"
-									><sup style="font-size: 12px;">(**)</sup> Terms and conditions applied.</td>
-								  </tr>			
-								</table>
-								<!--End part 2-->
-							</td>
-						</tr>
-						<tr>
-							<td bgcolor="#e7e7e7" class="main_body">
-								<!-- -Part 3 -->
-								<table
-									width="100%"
-									border="0"
-									cellpadding="0"
-									cellspacing="0"
-								>
-									<tr>
-										<td
-											align="left"
-											style="
-												margin: 0;
-												padding: 0;
-												border: none;
-												font-family: Arial, Helvetica, sans-serif !important;
-												font-size: 24px;
-												line-height: 1.3;
-												color: #db0011;
-											"
-											class="title-common"
-										>
-											<strong
-												>Exclusive benefits for all payroll customers</strong
-											></td>
-									</tr>
-									<!-- Content -->
-									<tr>
-										<td
-											style="
-												margin: 0;
-												padding: 15px 0 15px 0;
-												border: none;
-												font-family: Arial, Helvetica, sans-serif !important;
-												font-size: 16px;
-												line-height: 1.3;
-												color: #000000;
-											"
-										>With just a salary transfer from VND 10 million, you will always enjoy the following exclusive benefits</td>
-									</tr>
-									<tr>
-										<td>
-											<table
-												width="100%"
-												border="0"
-												cellpadding="0"
-												cellspacing="0"
-											>
-												<tr>
-													<td class="td-mobile">
-														<table
-															width="100%"
-															border="0"
-															cellpadding="0"
-															cellspacing="0"
-														>
-
-															<tr>
-																<td bgcolor="#FFFFFF">
-																	<table
-																		width="100%"
-																		border="0"
-																		cellpadding="0"
-																		cellspacing="0"
-																	>
-																		<!-- Row 1 -->
-																		<tr>
-																			<td
-																				width="50"
-																				align="center"
-																				style="padding: 8px 0 0 0"
-																				class="td-mobile img-chs-box"
-																			><img
-																					src="image/chs_box_32.jpg"
-																					width="36"
-																					height="auto"
-																					alt=""
-																					style="
-																						display: block;
-																					"
-																				/>
-
-																			</td>
-																			<td
-																				style="padding: 8px 0 0 10px"
-																				class="td-mobile"
-																			>
-																			  Free account opening and closure
-
-																			</td>
-																		</tr>
-																		<!-- Line -->
-																		<tr>
-																			<td
-																				height="10"
-																				align="center"
-																				style="
-																					border-bottom: 1px
-																						solid
-																						#333333;
-																					font-size: 1px;
-																				"
-																				class="border-color"
-																			></td>
-																			<td
-																				height="10"
-																				align="center"
-																				style="
-																					border-bottom: 1px
-																						solid
-																						#333333;
-																					font-size: 1px;
-																				"
-																				class="border-color"
-																			></td>
-																		</tr>
-																		<!-- Row 2 -->
-																		<tr>
-																			<td
-																				width="50"
-																				align="center"
-																				style="
-																					padding: 16px
-																						0
-																						0
-																						0;
-																				"
-																				class="td-mobile"
-																			>
-																				<img
-																					src="image/chs_box_33.jpg"
-																					width="36"
-																					height="auto"
-																					alt=""
-																					style="
-																						display: block;
-																					"
-																				/>
-																			</td>
-																			<td
-																				style="
-																					padding: 16px 0 0 10px;
-																				"
-																				class="td-mobile"
-																			>
-																			  Free Debit card issuance fee and free annual fee
-																			</td>
-																		</tr>
-																		<!-- Line -->
-																		<tr>
-																			<td
-																				height="10"
-																				align="center"
-																				style="
-																					border-bottom: 1px
-																						solid
-																						#333333;
-																					font-size: 1px;
-																				"
-																				class="border-color"
-																			></td>
-																			<td
-																				height="10"
-																				align="center"
-																				style="
-																					border-bottom: 1px
-																						solid
-																						#333333;
-																					font-size: 1px;
-																				"
-																				class="border-color"
-																			></td>
-																		</tr>
-																		<!-- Row 3 -->
-																		<tr>
-																			<td
-																				width="50"
-																				align="center"
-																				style="
-																					padding: 16px
-																						0
-																						0
-																						0;
-																				"
-																				class="td-mobile"
-																			>
-																				<img
-																					src="image/chs_box_34.jpg"
-																					width="36"
-																					height="auto"
-																					alt=""
-																					style="
-																						display: block;
-																					"
-																				/>
-																			</td>
-																			<td
-																				style="
-																					padding: 16px 0 0 10px;
-																				"
-																				class="td-mobile"
-																			>
-																			  Free ATM withdraw at Visa/Plus
-																			</td>
-																		</tr>
-																		<!-- Line -->
-																		<tr>
-																			<td
-																				height="10"
-																				align="center"
-																				style="
-																					border-bottom: 1px
-																						solid
-																						#333333;
-																					font-size: 1px;
-																				"
-																				class="border-color"
-																			></td>
-																			<td
-																				height="10"
-																				align="center"
-																				style="
-																					border-bottom: 1px
-																						solid
-																						#333333;
-																					font-size: 1px;
-																				"
-																				class="border-color"
-																			></td>
-																		</tr>
-																		<!-- Row 3 -->
-																		<tr>
-																			<td
-																				width="50"
-																				align="center"
-																				style="
-																					padding: 16px
-																						0
-																						0
-																						0;
-																				"
-																				class="td-mobile"
-																			>
-																				<img
-																					src="image/chs_box_35.jpg"
-																					width="36"
-																					height="auto"
-																					alt=""
-																					style="
-																						display: block;
-																					"
-																				/>
-																			</td>
-																			<td
-																				style="
-																					padding: 16px 0 0 10px;
-																				"
-																				class="td-mobile"
-																			>
-																			  Free domestic VND and oversea remittance via online remittance
-																			</td>
-																		</tr>
-
-																		<!-- Line -->
-																		<tr>
-																			<td
-																				height="10"
-																				align="center"
-																				style="
-																					border-bottom: 1px
-																						solid
-																						#333333;
-																					font-size: 1px;
-																				"
-																				class="border-color"
-																			></td>
-																			<td
-																				height="10"
-																				align="center"
-																				style="
-																					border-bottom: 1px
-																						solid
-																						#333333;
-																					font-size: 1px;
-																				"
-																				class="border-color"
-																			></td>
-																		</tr>
-																		<!-- Row 4 -->
-																		<tr>
-																			<td
-																				width="50"
-																				align="center"
-																				style="
-																					padding: 16px
-																						0
-																						0
-																						0;
-																				"
-																				class="td-mobile"
-																			>
-																				<img
-																					src="image/chs_box_36.jpg"
-																					width="36"
-																					height="auto"
-																					alt=""
-																					style="
-																						display: block;
-																					"
-																				/>
-																			</td>
-																			<td
-																				style="
-																					padding: 16px 0 0 10px;
-																				"
-																				class="td-mobile"
-																			>
-																			  Free real-time payment transfer via HSBC Vietnam app
-																			</td>
-																		</tr>
-
-																		<!-- Line -->
-																		<tr>
-																			<td
-																				height="10"
-																				align="center"
-																				style="
-																					border-bottom: 1px
-																						solid
-																						#333333;
-																					font-size: 1px;
-																				"
-																				class="border-color"
-																			></td>
-																			<td
-																				height="10"
-																				align="center"
-																				style="
-																					border-bottom: 1px
-																						solid
-																						#333333;
-																					font-size: 1px;
-																				"
-																				class="border-color"
-																			></td>
-																		</tr>
-																		<!-- Row 5 -->
-																		<tr>
-																			<td
-																				width="50"
-																				align="center"
-																				style="
-																					padding: 16px
-																						0
-																						0
-																						0;
-																				"
-																				class="td-mobile"
-																			>
-																				<img
-																					src="image/chs_box_37.jpg"
-																					width="36"
-																					height="auto"
-																					alt=""
-																					style="
-																						display: block;
-																					"
-																				/>
-																			</td>
-																			<td
-																				style="
-																					padding: 16px 0 0 10px;
-																				"
-																				class="td-mobile"
-																			>
-																				No requirement on monthly average balance
-																			</td>
-																		</tr>
-
-																		<!-- Line -->
-																		<tr>
-																			<td
-																				height="10"
-																				align="center"
-																				style="
-																					border-bottom: 1px
-																						solid
-																						#333333;
-																					font-size: 1px;
-																				"
-																				class="border-color"
-																			></td>
-																			<td
-																				height="10"
-																				align="center"
-																				style="
-																					border-bottom: 1px
-																						solid
-																						#333333;
-																					font-size: 1px;
-																				"
-																				class="border-color"
-																			></td>
-																		</tr>
-																		<!-- Row 6 -->
-																		<tr>
-																			<td
-																				width="50"
-																				align="center"
-																				style="
-																					padding: 16px
-																						0
-																						0
-																						0;
-																				"
-																				class="td-mobile"
-																			>
-																				<img
-																					src="image/chs_box_38.jpg"
-																					width="36"
-																					height="auto"
-																					alt=""
-																					style="
-																						display: block;
-																					"
-																				/>
-																			</td>
-																			<td
-																				style="
-																					padding: 16px 0 0 10px;
-																				"
-																				class="td-mobile"
-																			>
-																				Entitled to card acquisition offers and 01 year annual fee waiver
-																			</td>
-																		</tr>
-
-																		<!-- Line -->
-																		<tr>
-																			<td
-																				height="10"
-																				align="center"
-																				style="
-																					border-bottom: 1px
-																						solid
-																						#333333;
-																					font-size: 1px;
-																				"
-																				class="border-color"
-																			></td>
-																			<td
-																				height="10"
-																				align="center"
-																				style="
-																					border-bottom: 1px
-																						solid
-																						#333333;
-																					font-size: 1px;
-																				"
-																				class="border-color"
-																			></td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-															<tr>
-																<td style="padding: 16px 0 0 0" align="center">
-																	<table
-																		role="presentation"
-																		border="0"
-																		cellpadding="0"
-																		cellspacing="0"
-																		style="text-align: center"
-																	>
-																		<tr>
-																			<td bgcolor="#db0011" style="padding: 16px; color: #FFFFFF;"><strong>Don’t miss out - get rewarded for your salary today!</strong></td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-														</table>
-													</td>
-
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-								<!-- End part 3-->
-							</td>
-						</tr>
-					</table>
-					<!-- Footer -->
-					<tr>
-					  <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;">
-						  <tr>
-							<td height="40" width="40">&nbsp;</td>
-							<td class="chs_body" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
-								<tr>
-								  <td valign="top" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3;">&nbsp;</td>
-								</tr>
-							  </table></td>
-							<td width="40">&nbsp;</td>
-						  </tr>
-						  <tr>
-							<td>&nbsp;</td>
-							<td class="chs_body" align="left" style="padding:0; margin: 0; border: none; line-height: 1.3; font-size: 12px; font-family: Arial, Helvetica, sans-serif !important;">As per State Bank of Vietnam’s regulations, customers are not allowed to use their HSBC Credit Card to:</td>
-							<td>&nbsp;</td>
-						  </tr>
-						  <tr>
-							<td height="28">&nbsp;</td>
-							<td class="chs_body" style="padding:0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
-								<tr>
-								  <td width="10" valign="top" align="left" style="padding: 5px 0 0 0; margin: 0; border: none; line-height: 1.3; font-size: 12px; font-family: Arial, Helvetica, sans-serif !important;">&bull;</td>
-								  <td valign="top" align="left" style="padding: 5px 0 0 0; margin: 0; border: none; line-height: 1.3; font-size: 12px; font-family: Arial, Helvetica, sans-serif !important;">Withdraw cash instead of purchase goods or services provided at Point of Sales terminal (POS)</td>
-								</tr>
-								<tr>
-								  <td valign="top" align="left" style="padding: 5px 0 0 0; margin: 0; border: none; line-height: 1.3; font-size: 12px; font-family: Arial, Helvetica, sans-serif !important;">&bull;</td>
-								  <td valign="top" align="left" style="padding: 5px 0 0 0; margin: 0; border: none; line-height: 1.3; font-size: 12px; font-family: Arial, Helvetica, sans-serif !important;">Purchase goods or services which are not authorized as per State Bank of Vietnam’s regulations</td>
-								</tr>
-							  </table></td>
-							<td height="28">&nbsp;</td>
-						  </tr>
-						  <tr>
-							<td height="28">&nbsp;</td>
-							<td class="chs_body" style="padding:0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;">&nbsp;</td>
-							<td height="28">&nbsp;</td>
-						  </tr>
-						  <tr>
-							<td height="30">&nbsp;</td>
-							<td style="border-top: 1px solid #000">&nbsp;</td>
-							<td height="28">&nbsp;</td>
-						  </tr>
-						</table></td>
-					</tr>
-					<footer>
-						<table
-							width="100%"
-							cellpadding="0"
-							cellspacing="0"
-							class="footer-container"
-						>
-							<tr>
-								<td class="footer-container-main">
-									<table
-										role="presentation"
-										width="100%"
-										cellpadding="0"
-										cellspacing="0"
-									>
-										<tr>
-											<!-- Cột trái (footer-1) -->
-											<td
-												width="45%"
-												valign="top"
-												align="right"
-												style="padding: 0px 25px 0px 0"
-												class="stack-column-top"
-											>
-												<div style="margin-bottom: 5px">
-													Click
-													<strong>
-														<a
-															href="#"
-															target="_blank"
-															style="
-																color: #db0011;
-																text-decoration: none;
-															"
-														>
-															hsbc.com.vn
-														</a>
-													</strong>
-												</div>
-												<div>
-													<img
-														src="image/chs_img_facebook.jpg"
-														width="12"
-														height="12"
-														alt="facebook"
-														style="vertical-align: middle"
-													/>
-													<a
-														href="#"
-														target="_blank"
-														class="footer-social"
-														title="Liên kết này có thể cho Quý khách truy cập đến trang web khác không phải của HSBC..."
-														style="
-															padding-left: 5px;
-															vertical-align: middle;
-															color: #252525;
-															text-decoration: none;
-															font-size: 12px;
-														"
-													>
-														www.facebook.com/HSBCVietnam
-													</a>
-												</div>
-											</td>
-
-											<!-- Border ngăn cách -->
-											<td
-												class="hide-on-mobile"
-												style="
-													border-left: 3px solid #db0011;
-													padding: 0;
-													margin: 0;
-												"
-											></td>
-
-											<!-- Cột phải (footer-2) -->
-											<td
-												width="53%"
-												valign="top"
-												align="left"
-												style="padding: 0px 0 0px 10px"
-												class="stack-column-bottom"
-											>
-												<div style="margin-bottom: 5px">
-													Online chat on <strong style="color:#db0011;">www<span>.</span>hsbc<span>.</span>com<span>.</span>vn</strong>
-												</div>
-												<div>
-													or log in <strong style="color: #db0011;">Online Banking</strong>
-												</div>
-											</td>
-										</tr>
-									</table>
-								</td>
-							</tr>
-						</table>
-
-						<table
-							width="100%"
-							border="0"
-							cellpadding="0"
-							cellspacing="0"
-							class="footer_container"
-							style="
-								margin: 0;
-								border: none;
-								font-family: Arial, Helvetica, sans-serif !important;
-								font-size: 16px;
-								line-height: 1.3;
-								color: #000000;
-								background-color: rgb(245, 245, 245);
-							"
-						>
-							<tr>
-								<td>
-									<table
-										width="100%"
-										border="0"
-										cellpadding="0"
-										cellspacing="0"
-									>
-										<tr>
-											<td
-												align="left"
-												class="content_text_footer"
-												style="padding: 0"
-											>
-												Important information:
-											</td>
-										</tr>
-										<tr>
-											<td align="left" class="content_text_footer">
-												This material is designed for use in
-												Vietnam. The products and services
-												represented within this material are
-												intended for Vietnam customers. If you are
-												outside of Vietnam, we may not be
-												authorized to offer or provide you with
-												the products and services available
-												through this material in the country or
-												region you are located or resident in.
-												This material is not intended for
-												distribution or use by any person in any
-												jurisdiction, country or region where the
-												distribution or use of this material is
-												restricted and would not be permitted by
-												law or regulation.
-											</td>
-										</tr>
-										<tr>
-											<td align="left" class="content_text_footer">
-												This material provided by HSBC Bank
-												Vietnam (Ltd) ('HSBC Vietnam'). HSBC
-												Vietnam is authorized and regulated in
-												Vietnam by State Bank of Vietnam.
-											</td>
-										</tr>
-										<tr>
-											<td align="left" class="content_text_footer">
-												You are receiving this e-mail because you
-												have consented to HSBC Bank (Vietnam) Ltd.
-												('we', 'us' or 'our') sending you
-												promotional materials/ information
-												regarding our products and services. You
-												may, at any time, choose not to receive
-												e-mail marketing literature / information
-												about our service.
-											</td>
-										</tr>
-										<tr>
-											<td align="left" class="content_text_footer">
-												You can unsubscribe by calling our contact
-												center or visiting one of our branches.
-												Otherwise, you can also unsubscribe
-												digitally by sending an email (regardless
-												of title and content) to
-												<span>unsubscribe</span
-												><span style="display: none">@</span
-												>@<span>hsbc</span>.<span>com</span>.<span
-													>vn</span
-												>
-												from the e-mail address you no longer wish
-												to receive promotional emails from HSBC
-												Bank (Vietnam) Ltd. Please note that your
-												request will be recorded as soon as HSBC
-												Bank receives your request. The
-												unsubscription will take effect after at
-												least 4 working days. However, we
-												recommend that you remain subscribed to
-												our email in order to stay updated of our
-												latest products, services, and privileged
-												promotion offers.
-											</td>
-										</tr>
-										<tr>
-											<td align="left" class="content_text_footer">
-												This e-mail is confidential. It may also
-												be legally privileged. If you are not the
-												addressee you may not copy, forward,
-												disclose or use any part of it. If you
-												have received this message in error,
-												please delete it and all copies from your
-												system.
-											</td>
-										</tr>
-										<tr>
-											<td align="left" class="content_text_footer">
-												Please do not reply to this e-mail. Please
-												contact our HSBC Contact Center.
-											</td>
-										</tr>
-										<tr>
-											<td align="left" class="content_text_footer">
-												We maintain strict security standards and
-												procedures to prevent unauthorised access
-												to information about you. HSBC will never
-												contact you by e-mail or otherwise to ask
-												you to validate personal information such
-												as your user ID, password, or account/
-												credit card numbers. If you receive such a
-												request, please call our Contact Center.
-											</td>
-										</tr>
-										<tr>
-											<td align="left" class="content_text_footer">
-												We also remind our customers to connect
-												only to our HSBC website when accessing
-												Internet Banking. Never follow a link
-												within an e mail to start an Internet
-												Banking session. Instead, key in directly
-												to the browser address bar our HSBC
-												website to access our secured Internet
-												Banking site.
-											</td>
-										</tr>
-										<tr>
-											<td align="left" class="content_text_footer">
-												© Copyright. HSBC Bank (Vietnam) Ltd. All
-												rights reserved.
-											</td>
-										</tr>
-									</table>
-								</td>
-							</tr>
-						</table>
-					</footer>
-				</td>
-			</tr>
-		</table>
-	</body>
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Stay alert against scam</title>
+<style type="text/css">
+.chs_body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+</style>
+</head>
+<body>
+<div style="display: none; font-size:1px; color: #FFFFFF; line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Spend with your HSBC Credit Card now, claim your iPhone 17 Pro Max!</div>
+<table width="700" border="0" cellpadding="0" cellspacing="0" class="chs_body" style="margin: 0 auto; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;">
+  <tr>
+    <td style="margin: 0; padding: 0; border: 1px solid #CCC; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;">
+        <tr>
+          <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;">
+              <tr>
+                <td width="28" height="28">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td width="28">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="28">&nbsp;</td>
+                <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td style="font-size: 100%;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td valign="bottom"><img src="image/chs_hsbc_logo.jpg" width="104" height="28" alt="" style="display:block"/></td>
+                            <td width="50%" align="right"><img src="image/chs_hsbc_cards.jpg" width="218" height="56" alt="" style="display:block"/></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+                <td height="28">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="28">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td height="28">&nbsp;</td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><img src="image/chs_hsbc_key.jpg" width="700" height="auto" alt="" style="display:block"/></td>
+        </tr>
+        <tr>
+          <td style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+              <tr>
+                <td width="40"><img src="image/chs_img_square.png" width="40" height="56" alt="" style="display: block"/></td>
+                <td style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                    <tr>
+                      <td height="40" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_img_square.png" width="40" height="auto" alt="" style="display: block"/></td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 30px; font-family: Arial, Helvetica, sans-serif !important;">Stay alert against scam</td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;">Dear Valued Customer,</td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 15px 0 0 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;">We would like to inform you that fraudsters are employing various tactics to scam customers. Please be aware as they can:</td>
+                    </tr>
+                    <tr>
+                      <td height="40" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_img_square.png" width="40" height="auto" alt="" style="display: block"/></td>
+                    </tr>
+                  </table></td>
+                <td width="40"><img src="image/chs_img_square.png" width="40" height="56" alt="" style="display: block"/></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+              <tr>
+                <td bgcolor="#000000" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                    <tr>
+                      <td width="40" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_img_square.png" width="40" height="auto" alt="" style="display: block"/></td>
+                      <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                          <tr>
+                            <td height="40" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_img_square.png" width="40" height="auto" alt="" style="display: block"/></td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                                <tr>
+                                  <td width="183" style="padding: 0 0 10px 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_box_1.jpg" width="183" height="auto" alt="" style="display: block"/></td>
+                                  <td width="35" align="center" valign="bottom" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_box_15.png" width="9" height="auto" alt="" style="display: block"/></td>
+                                  <td width="183" style="padding: 0 0 10px 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_box_2.jpg" width="183" height="auto" alt="" style="display: block"/></td>
+                                  <td align="center" valign="bottom" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_box_15.png" width="9" height="auto" alt="" style="display: block"/></td>
+                                  <td width="183" style="padding: 0 0 10px 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_box_3.jpg" width="183" height="auto" alt="" style="display: block"/></td>
+                                </tr>
+                                <tr>
+                                  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding: 10px; margin: 0; border: none; line-height: 1.3; font-size: 14px; font-family: Arial, Helvetica, sans-serif !important;">Fraudsters send phishing SMS under well-known organizations such as Netflix.</td>
+                                  <td style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;">&nbsp;</td>
+                                  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding: 10px; margin: 0; border: none; line-height: 1.3; font-size: 14px; font-family: Arial, Helvetica, sans-serif !important;">Victims are tricked to share card details and OTP.</td>
+                                  <td style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;">&nbsp;</td>
+                                  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding: 10px; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;">Fraudster add cards to Samsung devices and make fraudulent transactions via Samsung pay.</td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td align="center" style="padding: 15px 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important; color: #FFFFFF;">hoặc</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                                <tr>
+                                  <td width="289" style="padding: 0 0 10px 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_box_4.jpg" width="289" height="auto" alt="" style="display: block"/></td>
+                                  <td align="center" valign="bottom" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_box_15.png" width="9" height="auto" alt="" style="display: block"/></td>
+                                  <td width="289" style="padding: 0 0 10px 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_box_5.jpg" width="289" height="auto" alt="" style="display: block"/></td>
+                                </tr>
+                                <tr>
+                                  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding: 10px; margin: 0; border: none; line-height: 1.3; font-size: 14px; font-family: Arial, Helvetica, sans-serif !important;">Impersonate bank or vendors.</td>
+                                  <td style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;">&nbsp;</td>
+                                  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding: 10px; margin: 0; border: none; line-height: 1.3; font-size: 14px; font-family: Arial, Helvetica, sans-serif !important;">Ask to pay for card delivery or prompt you to click on a link to cancel membership, redeem points, or block card, etc.</td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td height="40" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_img_square.png" width="40" height="auto" alt="" style="display: block"/></td>
+                          </tr>
+                        </table></td>
+                      <td width="40" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_img_square.png" width="40" height="auto" alt="" style="display: block"/></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><img src="image/chs_box_6.jpg" width="700" height="auto" alt="" style="display: block"/></td>
+              </tr>
+              <tr>
+                <td align="center" bgcolor="#f0f0f0" style="margin: 0; padding: 0 0 40px 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 28px; line-height: 1.3; color: #000000;"><strong>You can follow these preventives tips<br />
+                to keep yourself secured:</strong></td>
+              </tr>
+              <tr>
+                <td bgcolor="#f0f0f0" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                    <tr>
+                      <td width="40" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_img_square.png" width="40" height="auto" alt="" style="display: block"/></td>
+                      <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                          <tr>
+                            <td bgcolor="#FFFFFF" style="margin: 0; padding: 20px; border: 1px solid #db0011; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                                <tr>
+                                  <td width="90" align="left" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><img src="image/chs_box_7.png" width="69" height="auto" alt="" style="display: block"/></td>
+                                  <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><strong>Check notification emails</strong> from the bank regularly and report to HSBC Contact Centre immediately if your card is provisioned to Samsung devices without your request<strong>.</strong></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td bgcolor="#FFFFFF" style="margin: 0; padding: 20px; border: 1px solid #db0011; border-top: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                                <tr>
+                                  <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><strong>Don't share your online banking passwords, PINs, OTPs, or card details</strong> with anyone. This includes bank staff members or anyone who claims to be a vendor of the Bank.</td>
+                                  <td width="100" align="right" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><img src="image/chs_box_8.png" width="69" height="auto" alt="" style="display: block"/></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td bgcolor="#FFFFFF" style="margin: 0; padding: 20px; border: 1px solid #db0011; border-top: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                                <tr>
+                                  <td width="90" align="left" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><img src="image/chs_box_9.png" width="69" height="auto" alt="" style="display: block"/></td>
+                                  <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><strong>Don't click on links or scan QR codes</strong> provided in unverified emails, SMS messages or social media messages. Never input an OTP requested through a link provided in an email or SMS.</td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td bgcolor="#FFFFFF" style="margin: 0; padding: 20px; border: 1px solid #db0011; border-top: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                                <tr>
+                                  <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><strong>Don't install apps from untrusted sources</strong> or apps that require high-level permission on your device. Only download <strong>HSBC Vietnam app</strong> via <strong>App store</strong> or <strong>Google Play store</strong>. HSBC Vietnam app does not support any beta or unofficial iOS or Android releases.</td>
+                                  <td width="100" align="right" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><img src="image/chs_box_10.png" width="69" height="auto" alt="" style="display: block"/></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td bgcolor="#FFFFFF" style="margin: 0; padding: 20px; border: 1px solid #db0011; border-top: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                                <tr>
+                                  <td width="90" align="left" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><img src="image/chs_box_11.png" width="69" height="auto" alt="" style="display: block"/></td>
+                                  <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><strong>Don't rush to act</strong>. Fraudsters leverage on urgency to trick you into their scams. Stop and think before making payment transfers or online card transactions.</td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td bgcolor="#FFFFFF" style="margin: 0; padding: 20px; border: 1px solid #db0011; border-top: none; border-bottom: 15px solid #db0011; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                                <tr>
+                                  <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><strong>Be cautious of every request or offer</strong>, verify it directly with the organization, including HSBC, via official channels.</td>
+                                  <td width="100" align="right" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><img src="image/chs_box_12.png" width="69" height="auto" alt="" style="display: block"/></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                      <td width="40" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_img_square.png" width="40" height="auto" alt="" style="display: block"/></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td align="center" bgcolor="#f0f0f0" style="margin: 0; padding: 40px 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 28px; line-height: 1.3; color: #db0011;"><strong>Important Points to Remember:</strong></td>
+              </tr>
+              <tr>
+                <td bgcolor="#f0f0f0" align="center" style="margin: 0; padding: 0 0 10px 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                    <tr>
+                      <td width="63" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_box_13.jpg" width="63" height="auto" alt="" style="display: block"/></td>
+                      <td bgcolor="#db0011" align="center" valign="middle" style="margin: 0; padding: 0 20px; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 18px; line-height: 1.3; color: #FFFFFF">Common card services such as point redemption, card block/unblock <strong style="color: #fff777;">can only be performed through official channels</strong> like HSBC Mobile Banking App or Contact Centre</td>
+                      <td width="63" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_box_14.jpg" width="63" height="auto" alt="" style="display: block"/></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td bgcolor="#f0f0f0" align="center" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                    <tr>
+                      <td width="63" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_box_13.jpg" width="63" height="auto" alt="" style="display: block"/></td>
+                      <td bgcolor="#db0011" align="center" valign="middle" style="margin: 0; padding: 0 20px; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 18px; line-height: 1.3; color: #FFFFFF">HSBC <strong>never asks you to pay any fee</strong> related to card delivery services even delivery address adjustment.</td>
+                      <td width="63" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_box_14.jpg" width="63" height="auto" alt="" style="display: block"/></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td bgcolor="#f0f0f0" align="center" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3;"><img src="image/chs_img_square.png" width="40" height="auto" alt="" style="display: block"/></td>
+              </tr>
+              <tr>
+                <td bgcolor="#f0f0f0" align="center" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                    <tr>
+                      <td width="40" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_img_square.png" width="40" height="auto" alt="" style="display: block"/></td>
+                      <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3;"><strong>You may refer to our official contact channels provided on HSBC's website</strong> (https://www<span>.</span>hsbc<span>.</span>com<span>.</span>vn/)</td>
+                      <td width="40" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><img src="image/chs_img_square.png" width="40" height="auto" alt="" style="display: block"/></td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;">&nbsp;</td>
+                      <td style="margin: 0; padding: 15px 0 0 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 14px; line-height: 1.3;"><sup style="font-size: 12px;">(**)</sup>Social networking sites such as Facebook and WhatsApp are only for the purpose of providing and exchanging information, which must not be used as official transaction channels.</td>
+                      <td style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;">&nbsp;</td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td bgcolor="#f0f0f0" align="center" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3;"><img src="image/chs_img_square.png" width="40" height="auto" alt="" style="display: block"/></td>
+              </tr>
+              <tr>
+                <td align="left" style="margin: 0; padding: 40px; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3;">Sincerely,<br />
+                <strong>HSBC Bank (Vietnam) Limited</strong></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;">
+              <tr>
+                <td height="40" width="40">&nbsp;</td>
+                <td class="chs_body" style="padding: 0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                    <tr>
+                      <td valign="top" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3;">&nbsp;</td>
+                    </tr>
+                  </table></td>
+                <td width="40">&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td class="chs_body" align="left" style="padding:0; margin: 0; border: none; line-height: 1.3; font-size: 12px; font-family: Arial, Helvetica, sans-serif !important;">As per State Bank of Vietnam’s regulations, customers are not allowed to use their HSBC Credit Card to:</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="28">&nbsp;</td>
+                <td class="chs_body" style="padding:0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                    <tr>
+                      <td width="10" valign="top" align="left" style="padding: 5px 0 0 0; margin: 0; border: none; line-height: 1.3; font-size: 12px; font-family: Arial, Helvetica, sans-serif !important;">&bull;</td>
+                      <td valign="top" align="left" style="padding: 5px 0 0 0; margin: 0; border: none; line-height: 1.3; font-size: 12px; font-family: Arial, Helvetica, sans-serif !important;">Withdraw cash instead of purchase goods or services provided at Point of Sales terminal (POS)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" style="padding: 5px 0 0 0; margin: 0; border: none; line-height: 1.3; font-size: 12px; font-family: Arial, Helvetica, sans-serif !important;">&bull;</td>
+                      <td valign="top" align="left" style="padding: 5px 0 0 0; margin: 0; border: none; line-height: 1.3; font-size: 12px; font-family: Arial, Helvetica, sans-serif !important;">Purchase goods or services which are not authorized as per State Bank of Vietnam’s regulations</td>
+                    </tr>
+                  </table></td>
+                <td height="28">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="28">&nbsp;</td>
+                <td class="chs_body" style="padding:0; margin: 0; border: none; line-height: 1.3; font-size: 16px; font-family: Arial, Helvetica, sans-serif !important;">&nbsp;</td>
+                <td height="28">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="30">&nbsp;</td>
+                <td style="border-top: 1px solid #000">&nbsp;</td>
+                <td height="28">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="28" style="background-color: #EFEDED">&nbsp;</td>
+                <td style="background-color: #EFEDED"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;">
+                    <tr>
+                      <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><!--------- START CTA VI -------->
+                        
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;">
+                          <tr>
+                            <td align="right" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000; border-right: 2px solid #db0011"><table border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                                <tbody>
+                                  <tr>
+                                    <td align="right" valign="top" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;">Click<strong style="color:#db0011;"> hsbc<span>.</span>com<span>.</span>vn</strong></td>
+                                    <td width="10">&nbsp;</td>
+                                  </tr>
+                                  <tr>
+                                    <td align="right" valign="top" style="padding-top: 0px;color:#252525;font-size:10px;"><img src="image/chs_img_facebook.jpg"
+                                                    width="12" height="12" />&nbsp;www<span>.</span>facebook<span>.</span>com/HSBCVietnam</td>
+                                    <td>&nbsp;</td>
+                                  </tr>
+                                </tbody>
+                              </table></td>
+                            <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;"><table border="0" cellpadding="0" cellspacing="0" class="chs_body">
+                                <tbody>
+                                  <tr>
+                                    <td width="10">&nbsp;</td>
+                                    <td valign="top" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 14px; line-height: 1.3; color: #000000;">Online chat on <strong style="color:#db0011;">www<span>.</span>hsbc<span>.</span>com<span>.</span>vn</strong></td>
+                                  </tr>
+                                  <tr>
+                                    <td>&nbsp;</td>
+                                    <td valign="top" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 14px; line-height: 1.3; color: #000000;">or log in <strong style="color: #db0011;">Online Banking</strong></td>
+                                  </tr>
+                                </tbody>
+                              </table></td>
+                          </tr>
+                        </table>
+                        
+                        <!----------------------- END CTA VI -----------------------> 
+                        <!----------------------- START CTA EN -----------------------> 
+                        <!--------------- END CTA EN ---------------></td>
+                    </tr>
+                    <tr>
+                      <td style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; color: #000000;">&nbsp;</td>
+                    </tr>
+                  </table></td>
+                <td height="28" style="background-color: #EFEDED">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="28" bgcolor="#f5f5f5" style="border-top: 5px solid #FFFFFF;">&nbsp;</td>
+                <td style="background-color: #f5f5f5; border-top: 5px solid #FFFFFF"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body1">
+                    <tr class="chs_body">
+                      <td class="chs_body"></td>
+                    </tr>
+                    <tr class="chs_body">
+                      <td height="28" class="chs_body">&nbsp;</td>
+                    </tr>
+                    <tr class="chs_body">
+                      <td class="chs_body" align="left"><p align="left" style="padding: 0; margin: 0; border: none; font-size: 9px; line-height: 13px; color: #808080; font-family: Arial, Helvetica, sans-serif !important;">Important information:</p>
+                        <br />
+                        <p align="left" style="padding: 0; margin: 0; border: none; font-size: 9px; line-height: 13px; color: #808080; font-family: Arial, Helvetica, sans-serif !important;">This material is designed for use in Vietnam.  The products and services represented within this material are intended for Vietnam customers. If you are outside of Vietnam, we may not be authorized to offer or provide you with the products and services available through this material in the country or region you are located or resident in. This material is not intended for distribution or use by any person in any jurisdiction, country or region where the distribution or use of this material is restricted and would not be permitted by law or regulation.</p>
+                        <br />
+                        <p align="left" style="padding: 0; margin: 0; border: none; font-size: 9px; line-height: 13px; color: #808080; font-family: Arial, Helvetica, sans-serif !important;">This material provided by HSBC Bank Vietnam (Ltd) ('HSBC Vietnam'). HSBC Vietnam is authorized and regulated in Vietnam by State Bank of Vietnam.</p>
+                        <br />
+                        <p align="left" style="padding: 0; margin: 0; border: none; font-size: 9px; line-height: 13px; color: #808080; font-family: Arial, Helvetica, sans-serif !important;">You are receiving this e-mail because you have consented to HSBC Bank (Vietnam) Ltd. ('we', 'us' or 'our') sending you promotional materials/ information regarding our products and services. You may, at any time, choose not to receive e-mail marketing literature / information about our service.</p>
+                        <br />
+                        <p align="left" style="padding: 0; margin: 0; border: none; font-size: 9px; line-height: 13px; color: #808080; font-family: Arial, Helvetica, sans-serif !important;">You can unsubscribe by calling our contact center or visiting one of our branches. Otherwise, you can also unsubscribe digitally by sending an email (regardless of title and content) to <span style="text-decoration: underline;">unsubscribe@hsbc<span>.</span>com<span>.</span>vn</span> from the e-mail address you no longer wish to receive promotional emails from HSBC Bank (Vietnam) Ltd. Please note that your request will be recorded as soon as HSBC Bank receives your request. The unsubscription will take effect after at least 4 working days. However, we recommend that you remain subscribed to our email in order to stay updated of our latest products, services, and privileged promotion offers.</p>
+                        <br />
+                        <p align="left" style="padding: 0; margin: 0; border: none; font-size: 9px; line-height: 13px; color: #808080; font-family: Arial, Helvetica, sans-serif !important;">This e-mail is confidential. It may also be legally privileged. If you are not the addressee you may not copy, forward, disclose or use any part of it. If you have received this message in error, please delete it and all copies from your system.</p>
+                        <br />
+                        <p align="left" style="padding: 0; margin: 0; border: none; font-size: 9px; line-height: 13px; color: #808080; font-family: Arial, Helvetica, sans-serif !important;">Please do not reply to this e-mail. Please contact our HSBC Contact Center.</p>
+                        <br />
+                        <p align="left" style="padding: 0; margin: 0; border: none; font-size: 9px; line-height: 13px; color: #808080; font-family: Arial, Helvetica, sans-serif !important;">We maintain strict security standards and procedures to prevent unauthorised access to information about you. HSBC will never contact you by e-mail or otherwise to ask you to validate personal information such as your user ID, password, or account/ credit card numbers. If you receive such a request, please call our Contact Center.</p>
+                        <br />
+                        <p align="left" style="padding: 0; margin: 0; border: none; font-size: 9px; line-height: 13px; color: #808080; font-family: Arial, Helvetica, sans-serif !important;">We also remind our customers to connect only to our HSBC website when accessing Internet Banking. Never follow a link within an e mail to start an Internet Banking session. Instead, key in directly to the browser address bar our HSBC website to access our secured Internet Banking site.</p>
+                        <br />
+                        <p align="left" style="padding: 0; margin: 0; border: none; font-size: 9px; line-height: 13px; color: #808080; font-family: Arial, Helvetica, sans-serif !important;">© Copyright. HSBC Bank (Vietnam) Ltd. All rights reserved.</p></td>
+                    </tr>
+                  </table></td>
+                <td height="28" bgcolor="#f5f5f5" style="border-top: 5px solid #FFFFFF;">&nbsp;</td>
+              </tr>
+              <tr>
+                <td bgcolor="#f5f5f5" height="40">&nbsp;</td>
+                <td bgcolor="#f5f5f5">&nbsp;</td>
+                <td bgcolor="#f5f5f5" height="40">&nbsp;</td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body>
 </html>
+
+<!-- title="Liên kết này có thể cho Quý khách truy cập đến trang web khác không phải của HSBC. Ngân hàng TNHH Một thành viên HSBC (Việt Nam) không có quyền kiểm soát các trang web liên kết này và không chịu trách nhiệm đối với việc kết nối của Quý khách."-->
+<!-- title="This link may allow you to exit HSBC's website. HSBC assumes no liability or control for your using of this third-party website. Please refer to our Hyperlink Policy."-->
+<!--
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+  <tr>
+	<td width="15" valign="top" style="margin: 0; padding: 5px 0 0 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 14px; line-height: 1.3;">&bull;</td>
+	<td valign="top" style="margin: 0; padding: 5px 0 0 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3;">texxt</td>
+  </tr>
+</table>
+<table width="150" border="0" cellpadding="0" cellspacing="0" class="chs_body">
+  <tr>
+	<td height="40" align="center" valign="middle" bgcolor="#262362" style="margin: 0; padding: 0; border: none; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3;"><a href="#" target="_blank" style="color: #FFFFFF; text-decoration: none">Tìm hiểu thêm</a></td>
+  </tr>
+</table>
+mailto:card.product.vnm@hsbc.com.vn?subject=title&amp;body=content%0D%0A%0D%0Acontent
+breakline: %0A%0A
+enter: %0D%0A%0D%0A
+-->
